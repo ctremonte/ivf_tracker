@@ -1,4 +1,13 @@
 IvfTracker::Application.routes.draw do
+  resources :users
+
+
+  resources :clinicians
+
+
+  resources :comments
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
